@@ -9,5 +9,6 @@ public class AreaParkirAksi {
         
         ap1.cetakInfo();
         System.out.println("Luas Area Parkir    : "+ap1.hitungLuas());
+        ap1.cetakLuas();
     }
 }
