@@ -8,5 +8,6 @@ public class AreaParkirAksi {
         ap1.lebar = 30;
         
         ap1.cetakInfo();
+        System.out.println("Luas Area Parkir    : "+ap1.hitungLuas());
     }
 }
