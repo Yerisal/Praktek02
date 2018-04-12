@@ -6,5 +6,7 @@ public class AreaParkirAksi {
         
         ap1.panjang = 15;
         ap1.lebar = 30;
+        
+        ap1.cetakInfo();
     }
 }
