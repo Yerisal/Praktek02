@@ -3,6 +3,11 @@ package praktek02;
 public class AreaParkir {
     double panjang;
     double lebar;
+
+    public AreaParkir() {
+        panjang = 10;
+        lebar = 20;
+    }
     
     void cetakInfo(){
         System.out.println("============================");
