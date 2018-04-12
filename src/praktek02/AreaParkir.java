@@ -8,7 +8,12 @@ public class AreaParkir {
         panjang = 10;
         lebar = 20;
     }
-    
+
+    public AreaParkir(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+       
     void cetakInfo(){
         System.out.println("============================");
         System.out.println("Panjang             : "+panjang);
